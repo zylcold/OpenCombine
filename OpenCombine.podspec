@@ -21,7 +21,6 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target    = "9.0"
 
   spec.source_files        = "Sources/COpenCombineHelpers/**/*.{h,cpp}", "Sources/OpenCombine/**/*.swift"
-  spec.public_header_files = "Sources/COpenCombineHelpers/include/*.h"
 
   spec.libraries = "c++"
 end
